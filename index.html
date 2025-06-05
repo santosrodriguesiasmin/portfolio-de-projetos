@@ -5,42 +5,91 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Meu portfólio</title>
 </head>
 
 <body>
     <header class="container text-center">
-        <img src="img/avatar-perfil.png" alt="avatar da Fernanda" class="rounded-circle" width="150" height="150" srcset="">
-        <p class="lead">Eu sou Fernanda_</p>
-        <h1>Eu ensino Programação</h1>
-        <p>Sou Engenheira de Computação e Pedagoga. Ensino pensamento computacional para estudantes do Ensino
-            Fundamental e Médio. Ensino sobre pensamento computacional usando HTML, CSS e JavaScript. Veja os projetos
-            que já desenvolvi!</p>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIt6UGg1sr1p6tUUwCNbmANyF6DuxqKKJGPv86ZknNnldJEgzOx6yLdQ0Pcg-IraxQlDI&usqp=CAU" alt="avatar da Iasmin" class="rounded-circle" width="150" height="150"
+            srcset="">
+        <p class="lead">Eu sou Iasmin</p>
+        <h1>Eu sou estudante</h1>
+        <p>🌸Eu sou Florista, apaixonada por flores e plantas! Estou sempre pronta para ajudar a deixar tudo mais bonito e florido. 🌺</p>
         <p>Minhas habilidades</p>
         <div>
-            <p class="badge bg-secondary">HTML</p>
-            <p class="badge bg-secondary">CSS</p>
-            <p class="badge bg-secondary">JavaScript</p>
-            <p class="badge bg-secondary">Scratch</p>
+            <p class="badge bg-secondary">Design floral</p>
+            <p class="badge bg-secondary">Comunicação</p>
+            <p class="badge bg-secondary">Atendimento ao cliente</p>
+            <p class="badge bg-secondary">Criatividade</p>
         </div>
     </header>
-    <main class="container">
-        <h2>Meus projetos</h2>
+    <main class="container mt-5">
+        <h2>Minhas flores favoritas</h2>
         <div class="row">
+            <!-- Projeto 1 -->
             <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
-                    <img src="..." class="card-img-top" alt="...">
+                <div class="card">
+                    <img src="https://blog.giulianaflores.com.br/wp-content/uploads/2013/06/Tulipas-coloridas.jpg" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
                     <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Tulipa</h5>
+                        <p class="card-text">As tulipas são flores belíssimas, conhecidas por suas cores vibrantes e formas elegantes. 
+                            Originárias da Ásia Central e muito cultivadas na Holanda, elas simbolizam o amor perfeito e a chegada da primavera.
+                             São populares em jardins e buquês, e têm uma enorme variedade de cores: vermelho, amarelo, rosa, branco e até roxo. 
+                             Além de serem lindas, as tulipas têm um ciclo de vida curto e florescem, geralmente, na primavera.
+                        
                     </div>
-                  </div>
+                </div>
+            </div>
+            <!-- Projeto 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/625194776/pt/foto/calla-lilys-abstract-background-keukenhof-flower-park.jpg?s=612x612&w=0&k=20&c=2fFJ4OwkPu71RznmzElTbHzB2Owx1fTQ6kozion7GNc=" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Callas</h5>
+                        <p class="card-text">As callas (ou copos-de-leite) são flores elegantes e sofisticadas, conhecidas por sua forma única em forma de taça. 
+                            São originárias da África do Sul e se tornaram símbolos de pureza, elegância e renascimento. 
+                            As cores mais comuns são branco, amarelo, rosa, roxo e até preto. São muito usadas em arranjos florais para casamentos e decorações sofisticadas.
+                             Além disso, elas têm folhas verdes exuberantes que as complementam lindamente. ✨</p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="data:image/jpeg;base64,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" class="card-img-top" alt="Imagem do projeto de biblioteca virtual">
+                    <div class="card-body">
+                        <h5 class="card-title">Hibiscos
+                        </h5>
+                        <p class="card-text">Os hibiscos são flores tropicais vibrantes, conhecidas por suas cores intensas e suas pétalas grandes e vistosas. 
+                            Originárias da Ásia, são muito apreciadas em climas quentes e úmidos. Podem ser vermelhas, amarelas, rosas, brancas e laranja, e são símbolo de beleza, delicadeza e amor. 
+                            No Havaí, por exemplo, são tradicionalmente usadas em colares e enfeites de cabelo. 
+                            Além de ornamentais, algumas variedades são usadas para fazer chás deliciosos e refrescantes. 🌸✨
+                        </p>
+                        
+                    </div>
+                </div>
             </div>
         </div>
-
     </main>
+
+ 
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i>
+            <a href="https://github.com/femascheti">GitHub</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por Iasmin Rodrigues</p>
+    </footer>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
